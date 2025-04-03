@@ -2,7 +2,17 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("isPalindrome(121): " + isPalindrome(121));
+        System.out.println("isPalindrome(-1221): " + isPalindrome(-1221));
+        System.out.println("isPalindrome(123): " + isPalindrome(123));
+
+        System.out.println("isPerfectNumber(6): " + isPerfectNumber(6));
+        System.out.println("isPerfectNumber(28): " + isPerfectNumber(28));
+        System.out.println("isPerfectNumber(5): " + isPerfectNumber(5));
+
+        System.out.println("numberToWords(123): " + numberToWords(123));
+        System.out.println("numberToWords(1010): " + numberToWords(1010));
+        System.out.println("numberToWords(-12): " + numberToWords(-12));
     }
 
     public static boolean isPalindrome(int number) {
